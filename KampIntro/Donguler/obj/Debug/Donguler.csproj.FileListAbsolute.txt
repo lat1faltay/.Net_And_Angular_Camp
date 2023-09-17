@@ -1,0 +1,7 @@
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\bin\Debug\Donguler.exe.config
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\bin\Debug\Donguler.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\bin\Debug\Donguler.pdb
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\obj\Debug\Donguler.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\obj\Debug\Donguler.csproj.CoreCompileInputs.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\obj\Debug\Donguler.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Donguler\obj\Debug\Donguler.pdb

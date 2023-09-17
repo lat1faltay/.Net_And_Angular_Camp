@@ -1,0 +1,7 @@
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\bin\Debug\Matematik.exe.config
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\bin\Debug\Matematik.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\bin\Debug\Matematik.pdb
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\obj\Debug\Matematik.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\obj\Debug\Matematik.csproj.CoreCompileInputs.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\obj\Debug\Matematik.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Matematik\obj\Debug\Matematik.pdb

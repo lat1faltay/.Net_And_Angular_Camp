@@ -1,0 +1,7 @@
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\bin\Debug\ClassIntro.exe.config
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\bin\Debug\ClassIntro.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\bin\Debug\ClassIntro.pdb
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\obj\Debug\ClassIntro.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\obj\Debug\ClassIntro.csproj.CoreCompileInputs.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\obj\Debug\ClassIntro.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\ClassIntro\obj\Debug\ClassIntro.pdb
