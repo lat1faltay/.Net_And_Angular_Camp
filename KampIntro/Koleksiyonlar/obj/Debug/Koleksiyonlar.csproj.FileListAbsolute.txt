@@ -1,0 +1,7 @@
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\bin\Debug\Koleksiyonlar.exe.config
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\bin\Debug\Koleksiyonlar.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\bin\Debug\Koleksiyonlar.pdb
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\obj\Debug\Koleksiyonlar.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\obj\Debug\Koleksiyonlar.csproj.CoreCompileInputs.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\obj\Debug\Koleksiyonlar.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\Koleksiyonlar\obj\Debug\Koleksiyonlar.pdb
