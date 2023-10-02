@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9C5B7BF-9582-48DA-9CA8-8E9F8239AFF6}</ProjectGuid>
+    <ProjectGuid>{9FBD4706-017F-473E-B40B-8002A9E4193D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GenericsIntro</RootNamespace>
-    <AssemblyName>GenericsIntro</AssemblyName>
+    <RootNamespace>OOP3</RootNamespace>
+    <AssemblyName>OOP3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyList.cs" />
+    <Compile Include="BasvuruManager.cs" />
+    <Compile Include="DatabaseLoggerService.cs" />
+    <Compile Include="EsnafKrediManager.cs" />
+    <Compile Include="FileLoggerService.cs" />
+    <Compile Include="IhtiyacKrediManager.cs" />
+    <Compile Include="ILoggerService.cs" />
+    <Compile Include="KonutKrediManager.cs" />
+    <Compile Include="KrediManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmsLoggerService.cs" />
+    <Compile Include="TasitKrediManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

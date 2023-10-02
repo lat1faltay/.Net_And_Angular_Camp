@@ -1,0 +1,7 @@
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\bin\Debug\OOP3.exe.config
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\bin\Debug\OOP3.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\bin\Debug\OOP3.pdb
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\obj\Debug\OOP3.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\obj\Debug\OOP3.csproj.CoreCompileInputs.cache
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\obj\Debug\OOP3.exe
+C:\Users\ELEYSEC\Desktop\C#\KampIntro\OOP3\obj\Debug\OOP3.pdb

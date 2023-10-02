@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9C5B7BF-9582-48DA-9CA8-8E9F8239AFF6}</ProjectGuid>
+    <ProjectGuid>{2A5AB954-22ED-4E24-BF91-53C567C80B81}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GenericsIntro</RootNamespace>
-    <AssemblyName>GenericsIntro</AssemblyName>
+    <RootNamespace>OOP2</RootNamespace>
+    <AssemblyName>OOP2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyList.cs" />
+    <Compile Include="GercekMusteri.cs" />
+    <Compile Include="Musteri.cs" />
+    <Compile Include="MusteriManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TuzelMusteri.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
