@@ -12,3 +12,11 @@ C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\ne
 C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Business.dll
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\DataAccess.dll
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Entities.dll
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Business.pdb
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\bin\Debug\net6.0\Entities.pdb
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\ELEYSEC\Desktop\C#\MyFinalProject\MyFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete
