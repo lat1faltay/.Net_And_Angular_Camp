@@ -1,3 +1,1 @@
-8. gün 2.21.25
-
-veritabanı doğru kurulmamış hata veriyor
+8. gün bitti hata yok
