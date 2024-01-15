@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Brand:BaseEntity
+    public class Brand : IEntity
     {
         public int BrandId { get; set; }
-        public string Name { get; set; } = null!; 
-        public string Description { get; set; } = null!;
+        public string BrandName { get; set; } = null!; 
+        
     }
 }

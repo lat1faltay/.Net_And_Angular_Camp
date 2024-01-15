@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Color:BaseEntity
+    public class Color : IEntity
     {
-        public string Name { get; set; } = null!;
-
-
+        public int ColorId { get; set; }
+        public string ColorName { get; set; } = null!;
     }
 }
