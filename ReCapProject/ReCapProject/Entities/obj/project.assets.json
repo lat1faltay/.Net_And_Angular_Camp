@@ -1046,6 +1046,19 @@
             "rid": "win"
           }
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -3215,10 +3228,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
     ]
   },
@@ -3248,7 +3267,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
