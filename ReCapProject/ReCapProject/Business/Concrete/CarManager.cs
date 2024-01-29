@@ -5,6 +5,7 @@ using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,7 +41,6 @@ namespace Business.Concrete
             return _carDal.CarDetailDto();
         }
 
-
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
@@ -60,8 +60,6 @@ namespace Business.Concrete
         {
             return _carDal.GetAll(c => c.ColorId == ColorId);
         }
-
- 
 
         // Crud operasyonları
 
