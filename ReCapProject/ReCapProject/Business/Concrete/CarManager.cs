@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -20,45 +22,47 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void AddCar(Car car)
+        public IResult AddCar(Car car)
         {
-            if (car.CarName.Length >= 2 && car.DailyPrice > 0)
+            if (car.CarName.Length < 2)
             {
-                _carDal.Add(car);
+                // Magic String
+                return new ErrorResult(Messages.CarNameInvalid);
             }
-            else if (car.CarName.Length < 2)
+
+            _carDal.Add(car);
+            return new Result(true, Messages.CarAdded);
+
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.CarListed);
+        }
+
+        public IDataResult<List<Car>> GetAll()
+        {
+            return new SuccessDataResult<List<Car>>( _carDal.GetAll(),Messages.CarListed );
+        }
+
+        public IDataResult<List<Car>> GetById(int id)
+        {
+            var IsThereCar = _carDal.Get(c => c.Id == id);
+            if (IsThereCar == null) 
             {
-                Console.WriteLine("Araba ismi minimum 2 karakter olmalıdır!");
-            }else if (car.DailyPrice > 0) 
-            { 
-                Console.WriteLine("Araba günlük fiyatı 0'dan büyük olmalıdır!");
+                return new ErrorDataResult<List<Car>>(Messages.CarIdInvalid);
             }
-            Console.WriteLine("Araba Başarıyla Eklendi");
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Id==id));
         }
 
-        public List<CarDetailDto> CarDetailDto()
+        public IDataResult<List<Car>> GetCarsByBrandId(int BrandId)
         {
-            return _carDal.CarDetailDto();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.BrandId == BrandId));
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetCarsByColorId(int ColorId)
         {
-            return _carDal.GetAll();
-        }
-
-        public List<Car> GetById(int id)
-        {
-            return _carDal.GetAll(c => c.Id==id);
-        }
-
-        public List<Car> GetCarsByBrandId(int BrandId)
-        {
-            return _carDal.GetAll(c => c.BrandId == BrandId);
-        }
-
-        public List<Car> GetCarsByColorId(int ColorId)
-        {
-            return _carDal.GetAll(c => c.ColorId == ColorId);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == ColorId));
         }
 
         // Crud operasyonları
