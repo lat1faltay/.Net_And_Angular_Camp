@@ -16,7 +16,7 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
 
 
-            List<CarDetailDto> test3 = carManager.CarDetailDto();
+            //List<CarDetailDto> test3 = carManager.CarDetailDto();
 
             //Add(carManager);
 
@@ -26,33 +26,39 @@ namespace ConsoleUI
 
         }
 
-        private static void Add(CarManager carManager)
-        {
-            Car Car1 = new Car
-            {
-                Id = 2,
-                BrandId = 1,
-                CarName = "Test Car2",
-                ColorId = 2,
-                ModelYear = 2022,
-                DailyPrice = 150,
-                Description = "Car is Car"
-            };
+        //
+        //
+        // SORULACAK HATA VAR
+        //
+        //
 
-            carManager.AddCar(Car1);
+        //private static void Add(CarManager carManager)
+        //{
+        //    Car Car1 = new Car
+        //    {
+        //        Id = 2,
+        //        BrandId = 1,
+        //        CarName = "Test Car2",
+        //        ColorId = 2,
+        //        ModelYear = 2022,
+        //        DailyPrice = 150,
+        //        Description = "Car is Car"
+        //    };
 
-            List<Car> Test = carManager.GetAll();
+        //    carManager.Add(Car1);
 
-            foreach (Car car in Test)
-            {
-                Console.WriteLine(car.Id);
-                Console.WriteLine(car.CarName);
-            }
-        }
+        //    List<Car> Test = carManager.GetAll();
 
-        private static void Getby(CarManager carManager)
-        {
-            List<Car> test1 = carManager.GetById(2);
-        }
+        //    foreach (Car car in Test)
+        //    {
+        //        Console.WriteLine(car.Id);
+        //        Console.WriteLine(car.CarName);
+        //    }
+        //}
+
+        //private static void Getby(CarManager carManager)
+        //{
+        //    List<Car> test1 = carManager.GetById(2);
+        //}
     }
 }

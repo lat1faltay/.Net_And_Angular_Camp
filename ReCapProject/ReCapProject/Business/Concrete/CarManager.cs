@@ -22,27 +22,39 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public IResult AddCar(Car car)
+        public IResult Add(Car car)
         {
             if (car.CarName.Length < 2)
             {
                 // Magic String
-                return new ErrorResult(Messages.CarNameInvalid);
+                return new ErrorResult(Message.CarNameInvalid);
             }
 
             _carDal.Add(car);
-            return new Result(true, Messages.CarAdded);
+            return new Result(true, Message.CarAdded);
 
+        }
+
+        public IResult Delete(Car car)
+        {
+            _carDal.Delete(car);
+            return new SuccessResult(Message.CarDeleted);
+        }
+
+        public IResult Update(Car car)
+        {
+            _carDal.Update(car);
+            return new SuccessResult(Message.CarUpdated);
         }
 
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.CarListed);
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Message.CarListed);
         }
 
         public IDataResult<List<Car>> GetAll()
         {
-            return new SuccessDataResult<List<Car>>( _carDal.GetAll(),Messages.CarListed );
+            return new SuccessDataResult<List<Car>>( _carDal.GetAll(),Message.CarListed );
         }
 
         public IDataResult<List<Car>> GetById(int id)
@@ -50,7 +62,7 @@ namespace Business.Concrete
             var IsThereCar = _carDal.Get(c => c.Id == id);
             if (IsThereCar == null) 
             {
-                return new ErrorDataResult<List<Car>>(Messages.CarIdInvalid);
+                return new ErrorDataResult<List<Car>>(Message.CarIdInvalid);
             }
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.Id==id));
         }
