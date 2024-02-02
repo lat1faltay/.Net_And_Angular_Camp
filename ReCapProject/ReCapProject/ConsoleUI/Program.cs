@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Concrete;
+using Core.Utilities;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -22,8 +23,39 @@ namespace ConsoleUI
 
             //Getby(carManager);
 
+            var test2 = new ColorManager(new EfColorDal());
+            var test3 = new ColorManager(new EfColorDal2());
+
+            IDataResult<List<Color>> test4 = test2.GetAll();
+            IDataResult<List<Color>> test5 = test3.GetAll();
+            //foreach (var color in test4.Data) 
+            //{ 
+            //    Console.WriteLine(color.ColorName);
+            //}
+            //Console.WriteLine("*********************");
+
+            //foreach (var color in test5.Data)
+            //{
+            //    Console.WriteLine(color.ColorName);
+            //}
+
+            ColorGetir(test5.Data);
+            ColorGetir(test4.Data);
+
             Console.ReadLine();
 
+        }
+
+        // Fonksiyon color listesi alacak
+        // bu listenin elemanlarını console'a yazacak
+        static public void ColorGetir(List<Color> colors) 
+        {
+            
+            foreach (var color in colors) 
+            {
+                Console.WriteLine(color.ColorName);
+            }
+            
         }
 
         //

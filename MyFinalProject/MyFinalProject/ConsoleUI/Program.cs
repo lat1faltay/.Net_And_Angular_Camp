@@ -1,4 +1,5 @@
-﻿using Business.Concrete;
+﻿using Business.Abstract;
+using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using System;
@@ -9,7 +10,11 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            ProductTest();
+
+            IProductService productService = new ProductManager(new EfProductDal());
+            var result = productService.GetAll();
+            Console.WriteLine(result.Message);
+            Console.ReadKey();
         }
 
         private static void CategoryTest()
