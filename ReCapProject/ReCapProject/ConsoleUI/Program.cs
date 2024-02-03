@@ -16,6 +16,16 @@ namespace ConsoleUI
             RentACarContext context = new RentACarContext();
             CarManager carManager = new CarManager(new EfCarDal());
 
+            //var result = carManager.GetById(1);
+
+            //foreach (var item in result.Data) 
+            //{ 
+            //    Console.WriteLine(item.Id);
+            //    Console.WriteLine(item.CarName);
+            //    Console.WriteLine(item.ModelYear);
+
+            //}
+
 
             //List<CarDetailDto> test3 = carManager.CarDetailDto();
 
@@ -23,11 +33,11 @@ namespace ConsoleUI
 
             //Getby(carManager);
 
-            var test2 = new ColorManager(new EfColorDal());
-            var test3 = new ColorManager(new EfColorDal2());
+            //var test2 = new ColorManager(new EfColorDal());
+            //var test3 = new ColorManager(new EfColorDal2());
 
-            IDataResult<List<Color>> test4 = test2.GetAll();
-            IDataResult<List<Color>> test5 = test3.GetAll();
+            //IDataResult<List<Color>> test4 = test2.GetAll();
+            //IDataResult<List<Color>> test5 = test3.GetAll();
             //foreach (var color in test4.Data) 
             //{ 
             //    Console.WriteLine(color.ColorName);
@@ -39,8 +49,8 @@ namespace ConsoleUI
             //    Console.WriteLine(color.ColorName);
             //}
 
-            ColorGetir(test5.Data);
-            ColorGetir(test4.Data);
+            //ColorGetir(test5.Data);
+            //ColorGetir(test4.Data);
 
             Console.ReadLine();
 
