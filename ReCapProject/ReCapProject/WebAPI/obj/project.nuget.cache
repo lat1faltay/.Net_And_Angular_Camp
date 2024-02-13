@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OerDPL5D6I5APJcqxNzSPNvJ6ZZ0gm8c5DSRh3fjf4SLHKX5pg770W4/8jxZJUoyTHL+PLFKzDgsaus35KtvbQ==",
+  "dgSpecHash": "RE3HQkAqpCIRxPMXu4poeGUfycho4aDY3T4ilkG2RH3AaOWEmMA30XmwWaFJPlNBe90biMq3BOiaxbhxvAQkwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\EnginHoca1.Kamp\\ReCapProject\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEyWdg2uaL62uMytTAa/PabSZILA22KeT+PxXwHGpDmJ754sLU9RYbko80Nwff9YNG2nZ4HR4bs249ttYAB/EQ==",
+  "dgSpecHash": "m0miJVxIfNc3EY2NpxLeaUQz0VppiFypyGNcmXTI6bsZ9fyjdfC5eu8VHCzm+HqJS2bJJhKwELkRVxCAWAkVnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\EnginHoca1.Kamp\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

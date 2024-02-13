@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "amgw53zsRk1bkWi/5jBTerWJ0qZzowFk6qbC9GxoZf9BfsmMBPHAFd86BSiDZnmT/9nlLtDOoX0gSblEo26p4w==",
+  "dgSpecHash": "5ud0h2Kfm1gXkr4SSbUyvLCIxX1ngrNvkHmivVFj8b37K/7Do85rO8JIivQ6fgGKQd4u58ns0stZS1im2lW9og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\EnginHoca1.Kamp\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

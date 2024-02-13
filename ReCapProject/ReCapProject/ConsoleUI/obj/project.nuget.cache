@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q6IoTYs4rgFD8ZDJTsT77ELJryRsUWM31JTjEWb2UILcB1UVCrQED7o0/EyQz1aPX14lkFXyqPqwWgEwMnDh7g==",
+  "dgSpecHash": "ihEsLRZEEP02CPIJJ/MiOF1x5LhyNUxTSuVn6LkL5+x3R5lryZ6NrYeGkbnzlLbMfYsyHIy68N8y4wcHbFEnbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\ELEYDEV\\Desktop\\C#\\EnginHoca\\EnginHoca1.Kamp\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ELEYDEV\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
